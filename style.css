@@ -1,0 +1,395 @@
+.pic1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("download.webp");
+    background-size: cover;
+}
+
+body {
+    background-color: #F0EFEF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+.para1 {
+    display: flex;
+    justify-content: center;
+
+    p {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+
+.head {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.heading {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+.button {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+.b1 {
+    width: 200px;
+    height: 55px;
+    margin-right: 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    p {
+        margin: 0;
+    }
+}
+
+.b11 {
+    background-color: white;
+}
+
+.b12 {
+    background-color: black;
+
+    p {
+        color: white;
+    }
+}
+
+.b1:hover, .btn101:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.video-box {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    height: 90%;
+    width: 86%;
+}
+
+.cards-box {
+    height: 350vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    height: 90%;
+    width: 68.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards {
+    height: 740px;
+    width: 530px;
+}
+.cpic:hover{
+    transform: scale(1.02);
+    transition-duration: 0.2s;
+
+}
+
+
+.cpic {
+    height: 89%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.cpic1 {
+    background-image: url('p1.webp');
+    background-size: cover;
+}
+
+.cpic2 {
+    background-image: url('p2.webp');
+    background-size: cover;
+}
+
+.cpic3 {
+    background-image: url('p3.webp');
+    background-size: cover;
+}
+
+.cpic4 {
+    background-image: url('p4.webp');
+    background-size: cover;
+}
+
+.cpic5 {
+    background-image: url('p5.webp');
+    background-size: cover;
+}
+
+.cpic6 {
+    background-image: url('p6.webp');
+    background-size: cover;
+}
+
+.ctext {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+    margin-top: 10px;
+}
+
+.ctext-hover {
+    color: #9b9997;
+}
+
+.ctext-hover:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.searchbtn {
+    width: 130px;
+    height: 63px;
+    border: 2px solid #9b9997;
+    background-color: #F0EFEF;
+    border-radius: 30px;
+}
+
+.searchbtn:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.animbox {
+    height: 180vh;
+    width: 100%;
+    background-color: #E8E7E7;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.animhead p {
+    font-size: 150px;
+    padding: 0;
+    margin: 0;
+}
+.animtext{
+    width: 500px;    
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    margin-left: 35px;
+}
+.text1{
+    width: 55%;
+    height: 100%;
+}
+.text2{
+    width: 45%;
+    height: 100%;
+}
+.animtext p{
+    font-size: 18px;
+}
+.animcard{
+    width: 500px;
+    height: 345px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px 30px;
+}
+.btn101{
+    height: 64px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    margin-right: 25px;
+}
+.animbtn{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    border-bottom: 2px solid #E8E7E7;
+}
+.animbox-inside{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+}
+.a1{
+    height: 500px;
+    width: 740px;
+    position: absolute;
+    right: -200px;
+    background-image: url('a1.webp');
+    background-size: cover;
+    border-radius: 25px;
+    top: 300px;
+    animation: anim-a1 5s linear 0s infinite alternate;
+}
+
+@keyframes anim-a1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(25deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-25deg);
+    }
+    
+}
+
+.a2{
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 20px;
+    left: 47%;
+    background-image: url('a2.webp');
+    background-size: cover;
+    border-radius: 25px;
+    transform: rotate(10deg);
+    animation: anim-a2 0.8s linear 0s infinite alternate;
+}
+
+@keyframes anim-a2 {
+    100%{
+        top: 30px;
+        transform: rotate(7deg);
+    }
+}
+.a3{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 400px;
+    left: -80px;
+    background-image: url('a3.webp');
+    background-size: cover;
+    border-radius: 25px;
+    animation: anim-a3 0.8s linear 0s infinite alternate;
+}
+@keyframes anim-a3 {
+    100%{
+        left: -70px;
+        transform: rotate(-5deg);
+    }
+}
+.a4{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 640px;
+    left: 100px;
+    background-image: url('p1.webp');
+    background-size: cover;
+    border-radius: 20px;
+    animation: anim-a4 0.8s linear 0s infinite alternate;
+}
+@keyframes anim-a4 {
+    100%{
+        left: 110px;
+        transform: rotate(4deg);
+    }
+}
+.a6{
+    height: 270px;
+    width: 400px;
+    position: absolute;
+    bottom: 200px;
+    left: -300px;
+    background-image: url('a6.webp');
+    background-size: cover;
+    border-radius: 20px;
+    animation: anim-a6 1.5s linear 0s infinite alternate;
+    transform: rotate(-2deg);
+}
+@keyframes anim-a6 {
+    100%{
+        transform: rotate(-5deg);
+        left: -312px;
+
+    }
+}
+.a5{
+    height: 395px;
+    width: 525px;
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    background-image: url('a4.webp');
+    background-size: cover;
+    border-radius: 20px;
+    animation: anim-a4 1.2s linear 0s infinite alternate;
+}
+@keyframes anim-a4 {
+    100%{
+        transform: rotate(4deg);
+    }
+}
+.final{
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    overflow: visible;
+}
+.hover101:hover{
+    color: #9b9997;
+    text-decoration: none;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+.hover101{
+    text-decoration: underline;
+    color: black;
+}
